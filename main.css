@@ -1,0 +1,98 @@
+/*=========================
+         Global
+=========================*/
+
+
+body {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+  color: #043a04;
+}
+
+/*=========================
+         Game
+=========================*/
+
+.scoreCard {
+  padding: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.shooter {
+  background-color: blue;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: red;
+}
+
+.laser {
+  background-color: yellow;
+}
+
+/*=========================
+         index  
+=========================*/
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  width: 10rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #043a04;
+  transition: all .2s ease-in-out;
+  box-shadow: 1px 3px #888888;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px #888888;
+}
+
+.disclaimer {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#weatherStamp {
+  color: black;
+  font-size: 2rem;
+}
+
+#positionStamp {
+  color: black;
+  font-size: 2rem;
+}
