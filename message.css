@@ -1,0 +1,30 @@
+/*========================================
+            George.html
+========================================*/
+
+body {
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  width: 10rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #043a04;
+  transition: all .2s ease-in-out;
+  box-shadow: 1px 3px #888888;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px #888888;
+}

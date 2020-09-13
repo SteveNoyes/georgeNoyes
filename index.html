@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>George Noyes</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body onload="startTime()">
   <h1 class="title">Hello, George. The time is: <span id="timeStamp"></span></h1>
 
   <a href="george.html"><p class="btn">press here for your messages</p></a>
-  <p class="disclaimer">Here's a picture of nice weather because I haven't connected your local weather yet.</p>
+  <p class="disclaimer">Here's a picture of a cloud because I haven't connected your local weather yet.</p>
   <img src="cloudsAtTheBottomOfTheLake.jpg" alt="a single cloud" width="100%" height="auto">
   <p id="weatherStamp"></p>
   <p id="positionStamp"></p>
 
-  <h1 class="title">Noyes Invaders</h1>
+  <img class="title" src="noyesInvadersLogo.png" alt="Noyes Invaders Logo">
   <p>Use the arrow keys to move left and right. Shoot with spacebar.</p>
   <h3 class="scoreCard">Score: <span id="result"></span></h3>
   <div class="grid">
@@ -248,7 +248,31 @@
     <div></div>
   </div>
 
+  <section class="top-banner">
+  <div class="container">
+    <h1 class="heading">Weather App</h1>
+    <form>
+      <input type="text" placeholder="Search for your city" autofocus>
+      <button type="submit" class="btn">SUBMIT</button>
+      <span class="msg"></span>
+    </form>
+  </div>
+</section>
+<section class="ajax-section">
+  <div class="container">
+    <ul class="cities"></ul>
+  </div>
+</section>
+<footer class="page-footer">
+  <div class="container">
+    <small>Made with <span>❤</span> for George Noyes</a>
+    </small>
+  </div>
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" charset="utf-8"></script>
   <script src="script.js" charset="utf-8"></script>
+
 </body>
 </html>
